@@ -1,0 +1,59 @@
+{
+  "name": "handsign-alphabet",
+  "private": true,
+  "description": "A simple ASL (American Sign Language) alphabet detection using TensorFlow and Handpose model",
+  "version": "0.1.0",
+  "author": "Syauqy <syauqyaziz@gmail.com>",
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^1.0.0",
+    "@chakra-ui/react": "^1.0.4",
+    "@chengsokdara/use-whisper": "^0.2.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@tensorflow-models/handpose": "^0.0.6",
+    "@tensorflow/tfjs": "^2.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^2.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "dracula-ui": "^1.0.6",
+    "fingerpose": "^0.0.2",
+    "framer-motion": "3.10.6",
+    "mdb-ui-kit": "^6.4.1",
+    "next": "^14.1.4",
+    "next-remove-imports": "^1.0.12",
+    "openai": "^4.31.0",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-awesome-button": "^7.0.5",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.1.0",
+    "react-mic": "^12.4.6",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-webcam": "^5.2.2",
+    "sass": "^1.72.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syauqy/handsign-tensorflow-gatsby"
+  }
+}
