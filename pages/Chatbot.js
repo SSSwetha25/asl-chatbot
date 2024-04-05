@@ -6,7 +6,7 @@ const Chatbot = ({recognizedMsg}) => {
     const [chats,setChats]=useState([]);
     const [msg,setMsg]=useState('');
     const openai = new OpenAI({
-        apiKey: '', // This is the default and can be omitted
+        apiKey: '', // This is the default and can be omitted(your api key)
         dangerouslyAllowBrowser: true 
     });
       
