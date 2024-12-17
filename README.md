@@ -1,4 +1,4 @@
-#ASL chatbot
+# ASL chatbot
 This project involves the development of an AI chatbot that combines Natural Language 
 Processing (NLP) and Computer Vision techniques to facilitate inclusive communication. The 
 chatbot will seamlessly interpret both text-based and sign language inputs, utilizing advanced 
