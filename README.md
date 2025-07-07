@@ -1,12 +1,24 @@
-# ASL chatbot
-This project involves the development of an AI chatbot that combines Natural Language 
-Processing (NLP) and Computer Vision techniques to facilitate inclusive communication. The 
-chatbot will seamlessly interpret both text-based and sign language inputs, utilizing advanced 
-NLP algorithms for understanding textual information and computer vision models for 
-recognizing and translating sign language gestures into text. Application programming 
-interface (API) integration with platforms like OpenAI will enhance language processing 
-capabilities, while leveraging popular computer vision libraries such as OpenCV will enable 
-precise gesture recognition. The project aims to create an accessible and user-friendly interface 
-utilizing image recognition of sign language hand gestures integrated with a chatbot to provide 
-text-based output, fostering inclusive interaction between individuals using sign language and 
-AI systems
+# 🤖 ASL Chatbot
+
+A real-time chatbot that accepts sign language input and responds with meaningful text replies. This project aims to bridge communication gaps by combining **computer vision**, **machine learning**, and **chatbot technology**.
+
+---
+
+## ✨ Features
+
+- ✋ Accepts ASL hand gestures via webcam
+- 🧠 Recognizes gestures using a trained machine learning model
+- 💬 Converts gestures to text and feeds them to a chatbot
+- 🗣️ Returns text responses based on recognized input
+- ⚡ Real-time interaction with minimal latency
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**  
+- **OpenCV** – Webcam input & image preprocessing  
+- **TensorFlow, Keras** – ASL gesture recognition model  
+- **Flask** – Web interface for interaction  
+- **JavaScript & HTML/CSS** 
+
